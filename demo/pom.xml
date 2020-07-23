@@ -54,11 +54,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://35.202.104.9:8081/repository/maven-snapshots/</url>
+      <url>http://35.188.22.253:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexusdeploymentrepo</id>
-      <url>http://35.202.104.9:8081/repository/maven-releases/</url>
+      <url>http://35.188.22.253:8081/repository/maven-releases/</url>
     </repository>
   
   </distributionManagement>
