@@ -11,8 +11,7 @@ pipeline{
 
               stage('deploy'){
                   steps{
-                      script{
-                            sh "cd demo"
+			  script{
 			    sh "pwd"
 		    	    sh "mvn clean deploy"
 		  
