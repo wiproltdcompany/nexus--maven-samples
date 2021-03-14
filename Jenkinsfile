@@ -13,6 +13,7 @@ pipeline{
                   steps{
                       script{
                             sh "cd demo"
+			    sh "pwd"
 		    	    sh "mvn clean deploy"
 		  
                  	}
