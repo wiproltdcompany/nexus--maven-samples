@@ -3,7 +3,7 @@ pipeline{
       agent {
                 docker {
                 image 'maven'
-                args '-u root -v /home/antara_bits/settings.xml:/root/.m2'
+                args '-u root -v $HOME/.m2:/root/.m2'
                 }
             }
         
