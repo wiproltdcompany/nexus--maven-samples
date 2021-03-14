@@ -13,7 +13,7 @@ pipeline{
                   steps{
                       script{
                             sh "cd demo"
-		    	    sh "mvn clean deploy"
+		    	    sh "sudo mvn clean deploy"
 		  
                  	}
                	 }  
